@@ -1,0 +1,337 @@
+body {
+	background-image: url(../images/topography.png);
+}
+
+.topContainer {
+	overflow: hidden;
+	width: 100%;
+	height: 80px;
+	background-color: snow;
+	position: fixed;
+	top: 0;
+	border-bottom: 2px solid #cccccc;
+	z-index: 100;
+}
+
+.headerBox {
+	overflow: hidden;
+	padding: 25px;
+	font-size: 30px;
+	font-weight: 600;
+	letter-spacing: .015em;
+	background-color: #4aaaa5;
+	color: white;
+	text-align: center;
+	position: fixed;
+	top: 0;
+	left: 16.5%;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	float: left;
+}
+
+.navigation {
+	overflow: hidden;
+	padding: 20px;
+	text-align: right;
+	float: right;
+	position: fixed;
+	right: 16%;
+	color: #777777;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    float: right;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 16px;
+    color: #777;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    font-size: 18px;
+    color: #4aaaa5;
+}	
+
+.wrapper {
+	overflow: hidden;
+	width: 960px;
+	padding: 0px;
+	margin: 170px auto;
+	position: relative;
+}
+
+.leftBox {
+	width: 60%;
+	float: left;
+	height: auto;
+	background-color: snow;
+	color: #4aaaa5;
+	padding: 20px;
+	border: 1.0px solid #cccccc;
+	margin-top: 0px;	
+}
+#headShot {
+	height: auto;
+	width: auto;
+	max-height: 200px;
+	max-width: 200px;
+	float: left;
+}
+
+
+.contentHeader {
+	color: #4aaaa5;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-size: 36px;
+	font-weight: 600;
+	line-height: 1.8em;
+	padding: 0px 0px 0px 0px;
+	}
+
+p {
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	font-size: 18px;
+	line-height: 1.45em;
+	color: #777777;
+	padding: 10px;
+	margin: 10px;	
+}
+
+.rightBox {
+	overflow: hidden;
+	width: 30%;
+	height: 200px;
+	background-color: snow;
+	float: right;
+	padding: 20px;
+	border: 1.0px solid #cccccc;
+	margin-top: 0px;	
+}
+
+.contentHeader2 {
+	color: #4aaaa5;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-size: 24px;
+	font-weight: 600;
+	line-height: 1.8em;
+	padding: 0px 0px 0px 0px;	
+}
+
+footer {
+	width: 100%;
+	padding: 30px;
+	background: #666666;
+	color: white;
+	text-align: center;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	font-size: 12px;
+	border-top: 10px solid #45aaa5;
+	position: fixed;
+	bottom: 0px;
+
+}
+
+.portContent {
+	position: static;
+}
+
+#one {
+	position: static;
+	float: left;
+	margin: auto;
+	padding: 10pt 20pt 10pt 20pt;
+}
+
+#two {
+	position: static;
+	float: right;
+	margin: auto;
+	padding: 10pt 20pt 10pt 20pt;
+}
+
+#three {
+	position: static;
+	float: left;
+	margin: auto;
+	padding: 10pt 20pt 10pt 20pt;
+}
+
+#four {
+	position: static;
+	float: right;
+	margin: auto;
+	padding: 10pt 20pt 10pt 20pt;
+}
+
+#five {
+	position: static;
+	float: left;
+	margin: auto;
+	padding: 10pt 20pt 10pt 20pt;
+}
+
+input[type=text], select, textarea {
+    width: 100%; 
+    padding: 12pt;   
+    border: 1pt solid #ccc; 
+    border-radius: 4pt; 
+    box-sizing: border-box; 
+    margin-top: 10pt; 
+    margin-bottom: 16pt; 
+    resize: vertical
+}
+
+input[type=submit] {
+    background-color: orange;
+    color: white;
+    padding: 12pt 20pt;
+    border: none;
+    border-radius: 4pt;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+.contactContent {
+    border-radius: 5pt;
+    padding: 20pt;
+}
+
+@media only screen and (max-width: 640px) {
+ 	.topContainer {
+ 		position: relative;
+ 		height: 120px;
+ 	}
+	.headerBox {
+	position: relative;
+	top: 0;
+	left: 0%;
+	width: 100%;
+	font-size: 25px;
+	}
+	.navigation {
+		float: none;
+		width: 100%;
+		margin: 0;
+		position: relative;
+		text-align: center;
+	}
+
+	ul {
+		float: none;
+	}
+ 	
+ 	li {margin: auto;}
+
+	#headShot {
+		float: none;
+		max-width: 400pt;
+		max-height: 400pt;
+		margin: 10pt 10pt;
+	}
+	.wrapper {
+		margin: 20pt auto;
+		width: 100%;
+		}
+	.leftBox {
+		float: none;
+		width: 90%;
+		margin: auto;
+		}
+	.rightBox{
+		float: none;
+		width: 90%;
+		margin: 20pt auto;
+	}
+	td {
+		width: 20%;
+		align-content: left;
+	}
+	.portContent {
+		position: relative;
+	}
+	footer {
+		position: relative;
+	}
+
+	#one, #two, #three, #four, #five {
+		float: none;
+		position: relative;
+	}
+ }
+
+@media only screen and (max-width: 768px) {
+	.topContainer {
+		position: relative;
+	}
+
+	.headerBox {
+		left: 5%;
+		margin: auto;
+		position: relative;
+	}
+	.navigation {
+		right: 0%;
+		margin: auto;
+		position: relative;
+	}
+
+	.wrapper {
+		margin: 20pt auto;
+		width: 100%;
+		}
+	.leftBox {
+		float: none;
+		width: 90%;
+		margin: auto;
+		}
+	.rightBox{
+		float: none;
+		width: 90%;
+		margin: 20pt auto;
+	}
+	td {
+		width: 20%;
+		align-content: left;
+	}
+
+	footer {
+		position: relative;
+	}
+
+	#one, #two, #three, #four, #five {
+		float: none;
+		position: relative;
+	}
+}
+
+@media only screen and (max-width: 980px) {
+	.topContainer {
+		position: relative;
+	}
+
+	#headShot {
+		float: none;
+		max-height: 400pt;
+		max-width: 400pt;
+	}
+
+	footer {
+		position: relative;
+	}
+
+
